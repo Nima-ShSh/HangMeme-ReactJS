@@ -1,0 +1,134 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "mary@gmail.com",
+      "username": "I am Mary"
+    },
+    {
+      "email": "nima@gmail.com",
+      "username": "Nima  ",
+      "id": 2
+    }
+  ],
+  "gameInfo": [
+    {
+      "id": 1,
+      "won": true,
+      "userId": 1,
+      "wordBankId": 1
+    }
+  ],
+  "wordBank": [
+    {
+      "id": 1,
+      "wordCategoryId": 1,
+      "wordInCategory": "shrimp"
+    },
+    {
+      "id": 2,
+      "wordCategoryId": 1,
+      "wordInCategory": "barbacoa"
+    },
+    {
+      "id": 3,
+      "wordCategoryId": 1,
+      "wordInCategory": "tinga"
+    },
+    {
+      "id": 4,
+      "wordCategoryId": 2,
+      "wordInCategory": "poncho"
+    },
+    {
+      "id": 5,
+      "wordCategoryId": 2,
+      "wordInCategory": "chipotle"
+    },
+    {
+      "id": 6,
+      "wordCategoryId": 2,
+      "wordInCategory": "burrritozunga"
+    },
+    {
+      "id": 7,
+      "wordCategoryId": 2,
+      "wordInCategory": "elbandidochimichanga"
+    },
+    {
+      "id": 8,
+      "wordCategoryId": 2,
+      "wordInCategory": "juarez"
+    },
+    {
+      "id": 9,
+      "wordCategoryId": 3,
+      "wordInCategory": "buddy"
+    },
+    {
+      "id": 10,
+      "wordCategoryId": 3,
+      "wordInCategory": "max"
+    },
+    {
+      "id": 11,
+      "wordCategoryId": 3,
+      "wordInCategory": "zeus"
+    },
+    {
+      "id": 12,
+      "wordCategoryId": 4,
+      "wordInCategory": "teddy"
+    },
+    {
+      "id": 13,
+      "wordCategoryId": 4,
+      "wordInCategory": "milo"
+    }
+  ],
+  "wordCategory": [
+    {
+      "id": 1,
+      "categoryName": "taco"
+    },
+    {
+      "id": 2,
+      "categoryName": "burrito"
+    },
+    {
+      "id": 3,
+      "categoryName": "best dog names"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "userId": 1,
+      "message": "I'm gonna beat you in Hang-Meme!"
+    },
+    {
+      "id": 2,
+      "message": "Hmm..",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "message": "ok sure Mary"
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "img": "/img/1.JPG"
+    },
+    {
+      "id": 2,
+      "img": "/img/2.JPG"
+    },
+    {
+      "id": 2,
+      "img": "/img/3.JPG"
+    }
+  ]
+}

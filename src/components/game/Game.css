@@ -1,0 +1,75 @@
+* {background-color: rgb(231, 162, 135)}
+
+.gameforms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .game {
+      flex-basis: 28%;
+      margin: 1em;
+      padding: 1em;
+      border: 10px solid rgb(219, 51, 51);
+  }
+
+  .gameCat {
+    /* flex-basis: 28%; */
+    border: 1px solid black;
+      padding: 1em;
+      margin: 0.3em;
+      background-image: url();
+      background: linear-gradient(to bottom, rgba(126, 102, 212, 0.8) 0%, rgba(168, 150, 150, 0.6) 100%);
+      border-radius: 100px;
+  }
+  
+  .letter {
+    border-bottom: 3px solid #000000;
+    display: inline-flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3px;
+    height: 50px;
+    width: 20px;
+  }
+  
+  .boxyboi {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .blankyboi {
+    margin:1em
+  }
+
+  .loseBtn {
+    background-color: #f44336;
+  }
+
+  .winBtn {
+    background-color: #0cf53f;
+  }
+
+  .winTxt {
+    border: 8px solid rgb(9, 245, 68);
+  }
+
+  .loseTxt {
+    border: 8px solid rgb(245, 44, 9);
+  }
+
+  .wrongguess {
+    font-style: italic;
+  }
+
+  .wrongguessarray {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  .firstpage {
+    display: flex;
+	justify-content:space-evenly;
+	font-size: x-large;
+	background-color: coral;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+  }
